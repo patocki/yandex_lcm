@@ -1,0 +1,7 @@
+list1 = input().split(", ")
+list2 = input().split(", ")
+list3 = input().split(", ")
+set1 = set(list1)
+set2 = set(list2)
+set3 = set(list3)
+print(len(((set1 & set2) | (set2 & set3) | (set3 & set1)) - (set1 & set2 & set3)))

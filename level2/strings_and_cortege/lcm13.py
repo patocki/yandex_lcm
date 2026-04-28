@@ -1,0 +1,8 @@
+q1 = input()
+q2 = input()
+q3 = input()
+q4 = input()
+q5 = input()
+q1 = q1.strip(">")
+q1 = q1.strip("<")
+print((q1, q2[:3], q2[3:6], q2[6:9], q3[:2], q3[-1:-3], q4[1:-1], q5.upper() * 2))
